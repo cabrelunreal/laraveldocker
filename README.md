@@ -16,11 +16,11 @@ Create a Dockerfile and add the content of this dockerfile to it then run
 
 To create an image then :
 ```
-  docker run -p 8080:80 test-laravel:latest
+  docker run -p 8080:80 projectName:latest
 ```
 to start your container
 
-You could also add the docker-compose file directly and eventually a maria db database then 
+You could also add the docker-compose file directly and eventually a mariadb database then 
 ```
   docker compose up -d
 ```
